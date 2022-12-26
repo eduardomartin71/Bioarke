@@ -10,7 +10,7 @@
 </head>
 <body>
 <!-- Barra de Navegación -->
-<div class="barra_navegacion">
+<div class="contenedor barra_navegacion">
   <div class="logo">
     <img src="media/ba_logo.png" alt="Logo Bioarke" title="Logo de Bioarke"/>
   </div>
@@ -26,7 +26,7 @@
 
 <!--Portada-->
 
-<div class="portada">
+<div class="contenedor portada">
   <div class="imagen, imagen_portada">
     <img src="media/mueble_living_web_se.jpg" alt="Arquitectura de interiores" title="Arquitectura de interiores" width="" height="" />
   </div>
@@ -39,13 +39,114 @@
 </div>
 
 <!--Proyectos-->
-<div class="proyectos" >
-    <div class="imagen mosaico_imgs">
-        <img src="media/house1.jpg" alt="Proyecto 1" title="Proyecto 1">
-        <img src="media/house2.jpg" alt="Proyecto 2" title="Proyecto 2">
-        <img src="media/house3.jpg" alt="Proyecto 3" title="Proyecto 3">
-        <img src="media/house4.jpg" alt="Proyecto 4" title="Proyecto 4">
+<div class="contenedor proyectos" >
+    <div class="mosaico_imgs">
+        <div class="tarjeta">
+            <div class="imagen imagen_tarjeta">
+                <img src="media/house1.jpg" alt="Proyecto 1" title="Proyecto 1">
+            </div>
+            <div class="mas_info">
+                <p class="boton_mas">+</p>
+            </div>            
+        </div>
+        <div class="tarjeta">
+            <div class="imagen imagen_tarjeta">
+                <img src="media/house2.jpg" alt="Proyecto 2" title="Proyecto 2">
+            </div>
+            <div class="mas_info">
+                <p class="boton_mas">+</p>
+            </div>            
+        </div>
+        <div class="tarjeta">
+            <div class="imagen imagen_tarjeta">
+                <img src="media/house3.jpg" alt="Proyecto 3" title="Proyecto 3">
+            </div>
+            <div class="mas_info">
+                <p class="boton_mas">+</p>
+            </div>          
+        </div>
+        <div class="tarjeta">
+            <div class="imagen imagen_tarjeta">
+                <img src="media/house4.jpg" alt="Proyecto 4" title="Proyecto 4">
+            </div>
+            <div class="mas_info">
+                <p class="boton_mas">+</p>
+            </div>           
+        </div>
+        
     </div>
 </div>
+<!--Equipo-->
+<div class="contenedor equipo" >
+    <div class="mosaico_imgs">
+        <div class="tarjeta">
+            <div class="imagen imagen_tarjeta">
+                <img src="media/team2.jpg" alt="team2" title="team2">
+            </div>
+            <div class="mas_info">
+                <p class="boton_mas">+</p>
+            </div>
+            <div class="texto_tarjeta">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>            
+        </div>
+        <div class="tarjeta">
+            <div class="imagen imagen_tarjeta">
+                <img src="media/team3.jpg" alt="team3" title="team3">
+            </div>
+            <div class="mas_info">
+                <p class="boton boton_mas">+</p>
+            </div>
+            <div class="texto_tarjeta">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>            
+        </div>
+        <div class="tarjeta">
+            <div class="imagen imagen_tarjeta">
+                <img src="media/team4.jpg" alt="team4" title="team4">
+            </div>
+            <div class="mas_info">
+                <p class="boton_mas">+</p>
+            </div>
+            <div class="texto_tarjeta">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>            
+        </div>
+        
+    </div>
+</div>
+<!--Contacte-->
+<div class="contenedor" id="contact">
+    <h3 class="titulo_h3">Contact</h3>
+    <p>Póngase en contacto y hablemos de su siguiente proyecto.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="Entrada boton" type="text" placeholder="Name" required name="Name">
+      <input class="Entrada boton" type="text" placeholder="Email" required name="Email">
+      <input class="Entrada boton" type="text" placeholder="Subject" required name="Subject">
+      <input class="Entrada boton" type="text" placeholder="Comment" required name="Comment">
+      <button class="Entrada boton" type="submit">
+        <i class="boton boton_enviar"></i> SEND MESSAGE
+      </button>
+    </form>
+</div>
+<!--Footer-->
+<div class="container footer">
+    <div class="seccion">
+        donde estamos
+    </div>
+    <div class="seccion">
+        copyright<br>
+        legales
+    </div>
+    <div class="seccion">
+        social<br>
+        <img src="media/whatsapp.png" alt="Whatsapp" title="whatsapp"/>
+        <img src="media/linkedin.png" alt="linkedin" title="linkedin"/>
+        <img src="media/instagram.png" alt="instagram" title="instagram"/>
+        <img src="media/facebook.png" alt="facebook" title="facebook"/>
+    </div>
+</div>
+    
+
 </body>
 </html>
