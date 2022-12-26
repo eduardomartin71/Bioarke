@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="./css/style.css">
+        <link type="image/png" rel="icon" href="./media/favicon.png">
+        
+        <title>Bioarke - Arquitectura e Interiores</title>
+</head>
+<body>
+<!-- Barra de Navegación -->
+<div class="barra_navegacion">
+  <div class="logo">
+    <img src="path/to/file" alt="description" title="tool tip" width="" height="" />
+  </div>
+  <div class="menu">
+    
+  </div>
+</div>
+
+<!--Portada-->
+
+<div class="portada">
+  <div class="imagen, imagen_portada">
+    <img src="path/to/file" alt="description" title="tool tip" width="" height="" />
+  </div>
+  <div class="texto texto_portada">
+    Bioarke, Diseño de interiores
+  </div>
+  <div class="llamada_accion">
+    @bioarke
+  </div>
+</div>
+</body>
+</html>
