@@ -10,27 +10,28 @@
 </head>
 <body>
 <!-- Barra de Navegación -->
-<div class="barra_navegacion">
-  <div class="logo">
-    <img src="path/to/file" alt="description" title="tool tip" width="" height="" />
-  </div>
-  <div class="menu">
-    
+<div class="nav-bar">
+  <div class="flex">
+    <div class="logo">
+      <img src="media/ba_logo.png" alt="Logo Bioarke" title="Logo de Bioarke"/>
+    </div>
+    <div class="menu">
+      <ul>
+          <li><a class=""href="#trabajos">Trabajos</a></li>
+          <li><a class=""href="#proyectos">Proyectos</a></li>
+          <li><a class=""href="#Nosotros">Nosotros</a></li>
+          
+      </ul>
+    </div>
   </div>
 </div>
-
-<!--Portada-->
-
 <div class="portada">
-  <div class="imagen, imagen_portada">
-    <img src="path/to/file" alt="description" title="tool tip" width="" height="" />
-  </div>
-  <div class="texto texto_portada">
-    Bioarke, Diseño de interiores
-  </div>
-  <div class="llamada_accion">
-    @bioarke
+  <div class="contenedor">
+    <img src="media/mueble_living_web_se.jpg" alt="Arquitectura de Interiores" title="Mueble de Living"/>
+    <p class="titulo-img">BIOARKE BioArke Arquitectura</p>
+    <a class="boton-accion"href="#contact">Contacte</a>
   </div>
 </div>
+
 </body>
 </html>
