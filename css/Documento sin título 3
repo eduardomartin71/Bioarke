@@ -1,0 +1,109 @@
+
+/*BARRA DE NAVEGACION*/
+
+.nav-bar{
+  position:relative;
+  background:var(--primary-color);
+  height:100px;
+  z-index:-1;
+  border:3px solid blue;
+  
+}
+.flex{
+/*  position:absolute;*/
+  display:flex;
+  justify-content:space-between;
+  color:var(--secondary-color);
+  margin: 0px 10px 40px;
+  padding: 5px;
+  width:100%;
+  border: 3px solid red;
+}
+
+.logo{
+/*  position:absolute;*/
+
+  border:3px solid orange;
+}
+
+.nav-bar .logo img{
+
+
+  border-radius: 50%;
+
+  border:3px solid yellow;
+}
+.menu{
+
+  border:3px solid green;
+}
+.menu ul{
+  position:absolute;
+  display:flex;
+  border:3px solid yellow;
+  justify-content: space-between;
+  list-style-type:none;
+  bottom:10px;
+}
+.menu ul li{
+  border:3px solid red;
+}
+
+
+
+/*PORTADA*/
+
+.portada{
+  position:relative;
+  border:3px solid yellow;
+  height: 300px;
+}
+.portada .cont-port{
+  position:relative;
+  height: 200px;
+  border:30x solid blue;
+}
+.portada .imagen_portada img {
+  width:100%;
+/*  position:absolute;*/
+  z-index:-1;
+}
+
+.portada .texto_portada{
+  color:var(--secondary-color);
+  font-weight:600;
+  font-size:2.2rem;
+  position:absolute;
+  z-index:1;
+  top: 200px;
+  right: 100px;
+  text-align:right;
+}
+.portada .texto_portada a{
+  color:var(--secondary-color);
+  z-index:1;
+  text-decoration:none;
+}
+
+.portada .texto_portada .btn-action{
+  display:inline-block;
+  background-color:var(--action-color);
+  margin:30px 10px;
+  border-radius:10px;
+  cursor:pointer;
+  padding: 10px 10px;
+  font-weight:400;
+  font-size:1.5rem;
+}
+
+.portada .llamada_accion a{
+  position:absolute;
+  bottom:40px;
+  right:30px;
+  color:var(--secondary-color);
+  text-decoration:none;
+  font-weight:400;
+  font-size:1.5rem;
+  border:3px solid red;
+}
+

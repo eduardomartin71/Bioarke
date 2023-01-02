@@ -27,8 +27,9 @@
 </div>
 <div class="portada">
   <div class="contenedor">
-    <img src="media/mueble_living_web_se.jpg" alt="Arquitectura de Interiores" title="Mueble de Living"/>
-    <p class="titulo-img">BIOARKE BioArke Arquitectura</p>
+    <img src="media/mueble_living_web.jpg" alt="Arquitectura de Interiores" title="Mueble de Living"/>
+    <h1 class="titulo-img">BIOARKE Arquitectura</h1>
+    <p class="subtitulo-img">Realizamos su proyecto soñado</p>
     <a class="boton-accion"href="#contact">Contacte</a>
   </div>
 </div>

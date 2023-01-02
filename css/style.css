@@ -5,6 +5,7 @@ https://fonts.google.com/share?selection.family=Montserrat:ital@1
   --primary-color:#000;
   --secondary-color:#fff;
   --action-color:#335461;
+  --calltoaction-color:#a52a2a;
 }
 
 /*FORMATOS ESTANDAR*/
@@ -19,23 +20,23 @@ html, body {
   color: #000;
 }
 html{
-  border:3px solid lightBlue;
+/*  border:3px solid lightBlue;*/
 }
 body{
-  border:3px solid purple;
+/*  border:3px solid purple;*/
 }
 .nav-bar{
-  border:3px solid red;
+/*  border:3px solid red;*/
   background-color:black;
 }
   .flex{
     display:flex;
     justify-content:space-between;
-    border:3px solid yellow;
+/*    border:3px solid yellow;*/
     height:100px;
   }
     .logo{
-      border:3px solid orange;
+/*      border:3px solid orange;*/
       padding-left:30px;
     }
       .logo img{
@@ -45,30 +46,37 @@ body{
       }
   .menu{
     position:relative;
-    width:250px;
-    border:3px solid green;
+    width:450px;
+/*    border:3px solid green;*/
   }
     .menu ul{
       display:flex;
       position:absolute;
-      bottom:0;
-      gap:10px;
+      bottom:10px;
+      gap:30px;
       list-style:none;
-      border:3px solid blue;
+/*      border:3px solid blue;*/
       justify-content:space-around;
     }
       .menu ul a{
         text-decoration:none;
         color:white;
+        font-size: 1.5rem;
+        font-weight: 400;
+      }
+      .menu ul li a:hover{
+        border-bottom:2px solid white;
+        font-weight:600;
       }
 
 /*SECCIÓN DE PORTADA*/
 
 .portada{
-  border:3px solid green;
+/*  border:3px solid green;*/
 }
 
-.contenedor .titulo-img{
+.contenedor .titulo-img,
+.contenedor .subtitulo-img{
   position:absolute;
   z-index:1;
   color:#fff;
@@ -78,30 +86,39 @@ body{
   bottom:60%;
 }
 
+.contenedor .subtitulo-img{
+  font-size:2rem;
+  font-weight:400;
+  bottom: 55%;
+}
+
 .contenedor img{
   position:relative;
   object-fit:cover;
   z-index:0;
   margin:0;
-  border:3px solid red;
+/*  border:3px solid red;*/
   width:100%;
 }
 
 .contenedor a{
   position:absolute;
   z-index:1;
-  right:50px;
-  bottom: 50%;
+  right:10%;
+  bottom: 45%;
   text-decoration:none;
   color:#fff;
   font-weight:600;
   font-size: 1.8rem;
   padding:10px;
-  border:3px solid tomato;
-  background-color:tomato;
+/*  border:3px solid tomato;*/
+  background-color: #a52a2a;
   border-radius:10px;
   
-  
+}
+
+.contenedor a:hover{
+  transform: scale(1.1);
 }
 
 
