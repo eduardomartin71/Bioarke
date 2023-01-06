@@ -25,6 +25,8 @@ html{
 body{
 /*  border:3px solid purple;*/
 }
+
+/*BARRA DE NAVEGACIÓN*/
 .nav-bar{
 /*  border:3px solid red;*/
   background-color:black;
@@ -118,8 +120,26 @@ body{
 }
 
 .contenedor a:hover{
-  
+  transform: scale(1.1);
 }
+
+/*SECCIÓN DE PROYECTOS*/
+
+.trabajos .grupo-tarjetas{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.trabajos .grupo-tarjetas .imagen-proyecto{
+  width: 25vw;
+}
+
+.trabajos .grupo-tarjetas .imagen-proyecto img{
+  display:block;
+  width:100%;
+  height:auto;
+}
+
 
 
 

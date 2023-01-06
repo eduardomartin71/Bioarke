@@ -17,14 +17,16 @@
     </div>
     <div class="menu">
       <ul>
-          <li><a class=""href="#trabajos">Trabajos</a></li>
-          <li><a class=""href="#proyectos">Proyectos</a></li>
-          <li><a class=""href="#Nosotros">Nosotros</a></li>
+          <li><a class="" href="#Nosotros">Nosotros</a></li>
+          <li><a class="" href="#trabajos">Trabajos</a></li>
+          <li><a class="" href="#contacto">Contacto</a></li>
           
       </ul>
     </div>
   </div>
 </div>
+
+<!--PORTADA-->
 <div class="portada">
   <div class="contenedor">
     <img src="media/mueble_living_web.jpg" alt="Arquitectura de Interiores" title="Mueble de Living"/>
@@ -33,6 +35,69 @@
     <a class="boton-accion"href="#contact">Contacte</a>
   </div>
 </div>
+
+<!--TRABAJOS-->
+<div class="trabajos" id="proyectos">
+  <div class="titulo">
+    <h1 id="">Proyectos</h1>
+  </div>
+<!--  tarjeta de proyecto, serían 6 tarjetas-->
+  <div class="tarjeta proyecto">
+    <div class="imagen-proyecto">
+      <img src="media/proyecto1.jpg" alt="proyecto1" title="proyecto1"/>
+    </div>
+    <div class="boton">
+      <a class="btn"href="#proyectos">+</a>
+    </div>
+  </div>
+  <div class="tarjeta proyecto">
+    <div class="imagen-proyecto">
+      <img src="media/proyecto2.jpg" alt="proyecto2" title="proyecto2"/>
+    </div>
+    <div class="boton">
+      <a class="btn"href="#proyectos">+</a>
+    </div>
+  </div>
+  <div class="tarjeta proyecto">
+    <div class="imagen-proyecto">
+      <img src="media/proyecto3.jpg" alt="proyecto3" title="proyecto3"/>
+    </div>
+    <div class="boton">
+      <a class="btn"href="#proyectos">+</a>
+    </div>
+  </div>
+  <div class="tarjeta proyecto">
+    <div class="imagen-proyecto">
+      <img src="media/proyecto4.jpg" alt="proyecto4" title="proyecto4"/>
+    </div>
+    <div class="boton">
+      <a class="btn"href="#proyectos">+</a>
+    </div>
+  </div>
+  <div class="tarjeta proyecto">
+    <div class="imagen-proyecto">
+      <img src="media/proyecto5.jpg" alt="proyecto5" title="proyecto5"/>
+    </div>
+    <div class="boton">
+      <a class="btn"href="#proyectos">+</a>
+    </div>
+  </div>
+  <div class="tarjeta proyecto">
+    <div class="imagen-proyecto">
+      <img src="media/proyecto5.jpg" alt="proyecto2" title="proyecto2"/>
+    </div>
+    <div class="boton">
+      <a class="btn"href="#proyectos">+</a>
+    </div>
+  </div>
+</div>
+
+
+<!--CONTACTE-->
+
+
+<!--FOOTER-->
+
 
 </body>
 </html>
