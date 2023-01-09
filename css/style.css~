@@ -131,7 +131,7 @@ body{
   gap:10px;
 }
 .trabajos .grupo-tarjetas .imagen-proyecto{
-  width: 25vw;
+  width: 350px;
 }
 
 .trabajos .grupo-tarjetas .imagen-proyecto img{
