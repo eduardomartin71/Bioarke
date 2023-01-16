@@ -41,55 +41,63 @@
   <div class="titulo">
     <h1 id="">Proyectos</h1>
   </div>
+  <div class="contenido-copyright">
+    <p>
+    Encaramos cada proyecto con entusiasmo, como si fuera el primero. Tenemos pasión por el diseño y nos gusta nuestro trabajo. Nuestro diseño está centrado en el cliente y hace a cada proyecto único.<br>
+Puede visitarnos en nuestro taller, con capacidad para varios proyectos ejecutados por nuestros carpinteros especialistas.
+</p>
+  </div>
 <!--  tarjeta de proyecto, serían 6 tarjetas-->
-  <div class="tarjeta proyecto">
-    <div class="imagen-proyecto">
-      <img src="media/proyecto1.jpg" alt="proyecto1" title="proyecto1"/>
+  <div class="grupo-tarjetas">
+    <div class="tarjeta-proyecto">
+      <div class="imagen-proyecto">
+        <img src="media/proyecto1.jpg" alt="proyecto1" title="proyecto1"/>
+      </div>
+      <div class="boton">
+        <a class="btn"href="#proyectos">+</a>
+      </div>
     </div>
-    <div class="boton">
-      <a class="btn"href="#proyectos">+</a>
+      <div class="tarjeta-proyecto">
+        <div class="imagen-proyecto">
+          <img src="media/proyecto2.jpg" alt="proyecto2" title="proyecto2"/>
+        </div>
+        <div class="boton">
+          <a class="btn"href="#proyectos">+</a>
+        </div>
+      </div>
+      <div class="tarjeta-proyecto">
+        <div class="imagen-proyecto">
+          <img src="media/proyecto3.jpg" alt="proyecto3" title="proyecto3"/>
+        </div>
+        <div class="boton">
+          <a class="btn"href="#proyectos">+</a>
+        </div>
+      </div>
+      <div class="tarjeta-proyecto">
+        <div class="imagen-proyecto">
+          <img src="media/proyecto4.jpg" alt="proyecto4" title="proyecto4"/>
+        </div>
+        <div class="boton">
+          <a class="btn"href="#proyectos">+</a>
+        </div>
+      </div>
+      <div class="tarjeta-proyecto">
+        <div class="imagen-proyecto">
+          <img src="media/proyecto5.jpg" alt="proyecto5" title="proyecto5"/>
+        </div>
+        <div class="boton">
+          <a class="btn"href="#proyectos">+</a>
+        </div>
+      </div>
+      <div class="tarjeta-proyecto">
+        <div class="imagen-proyecto">
+          <img src="media/proyecto2.jpg" alt="proyecto6" title="proyecto6"/>
+        </div>
+        <div class="boton">
+          <a class="btn"href="#proyectos">+</a>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="tarjeta proyecto">
-    <div class="imagen-proyecto">
-      <img src="media/proyecto2.jpg" alt="proyecto2" title="proyecto2"/>
-    </div>
-    <div class="boton">
-      <a class="btn"href="#proyectos">+</a>
-    </div>
-  </div>
-  <div class="tarjeta proyecto">
-    <div class="imagen-proyecto">
-      <img src="media/proyecto3.jpg" alt="proyecto3" title="proyecto3"/>
-    </div>
-    <div class="boton">
-      <a class="btn"href="#proyectos">+</a>
-    </div>
-  </div>
-  <div class="tarjeta proyecto">
-    <div class="imagen-proyecto">
-      <img src="media/proyecto4.jpg" alt="proyecto4" title="proyecto4"/>
-    </div>
-    <div class="boton">
-      <a class="btn"href="#proyectos">+</a>
-    </div>
-  </div>
-  <div class="tarjeta proyecto">
-    <div class="imagen-proyecto">
-      <img src="media/proyecto5.jpg" alt="proyecto5" title="proyecto5"/>
-    </div>
-    <div class="boton">
-      <a class="btn"href="#proyectos">+</a>
-    </div>
-  </div>
-  <div class="tarjeta proyecto">
-    <div class="imagen-proyecto">
-      <img src="media/proyecto5.jpg" alt="proyecto2" title="proyecto2"/>
-    </div>
-    <div class="boton">
-      <a class="btn"href="#proyectos">+</a>
-    </div>
-  </div>
 </div>
 
 

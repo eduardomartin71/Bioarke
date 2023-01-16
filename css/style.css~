@@ -96,11 +96,12 @@ body{
 
 .contenedor img{
   position:relative;
-  object-fit:cover;
+/*  object-fit:cover;*/
   z-index:0;
-  margin:0;
+/*  margin:0;*/
 /*  border:3px solid red;*/
   width:100%;
+/*  margin:0 60px;*/
 }
 
 .contenedor a{
@@ -109,12 +110,13 @@ body{
   right:10%;
   bottom: 45%;
   text-decoration:none;
-  color:#fff;
+  color:#F1f1f1;
   font-weight:600;
   font-size: 1.8rem;
   padding:10px;
 /*  border:3px solid tomato;*/
-  background-color: #a52a2a;
+  background-color: orange; 
+/*color rojo-bordó  #a52a2a;*/
   border-radius:10px;
   
 }
@@ -124,21 +126,97 @@ body{
 }
 
 /*SECCIÓN DE PROYECTOS*/
+.trabajos{
+  padding:3rem 0px;
+  display:flex;
+  flex-direction:column;
+/*  border:3px blue solid;*/
+}
+.trabajos .titulo{
+/* margin: 20px;*/
+ text-align: center;
+/* border:2px solid yellow;*/
+ font-size:1.8rem;
+}
+.contenido-copyright{
+  margin: 20px;
+  padding:10px;
+/*  border:2px solid brown;*/
+  
+}
+.contenido-copyright p{
+ width: 75%;
+ margin:auto;
+ font-size:1rem;
+ color:gray;
+ text-align:justify;
+ line-height:1.5rem;
+/* border: 2px solid BurlyWood;*/
+}
 
 .trabajos .grupo-tarjetas{
-  display:flex;
-  flex-wrap:wrap;
-  gap:10px;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: auto 40px;
+/*  grid-gap:5px;*/
+/*  border:3px solid green;*/
+}
+.trabajos .grupo-tarjetas .tarjeta-proyecto{
+/*  justify-self:center;*/
+  position:relative;
+  margin:10px;
+  width:350px;
+  height:260px;
 }
 .trabajos .grupo-tarjetas .imagen-proyecto{
-  width: 350px;
+  width: 100%;
+  height: 100%;
 }
 
 .trabajos .grupo-tarjetas .imagen-proyecto img{
-  display:block;
+/*  display:block;*/
   width:100%;
-  height:auto;
+  height:100%;
 }
+.trabajos .grupo-tarjetas .tarjeta-proyecto{
+  position:relative
+}
+.tarjeta-proyecto .boton{
+ position:absolute;
+ top:0;
+ left:0;
+ width:100%;
+ height:100%;
+ background: rgba(0, 0, 0, 0.5);
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ opacity:0;
+ transition: 0.4s;
+  
+}
+
+.tarjeta-proyecto:hover .boton {
+  opacity:1;
+}
+
+.tarjeta-proyecto a{
+  text-decoration:none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px 15px;  
+  transition:0.3s;
+}
+.tarjeta-proyecto .boton a:hover{
+  background:#fff;
+  color:#000;
+  font-size:1.2rem;
+  font-weight:400;
+  transform: scale(1.1);
+
+}
+
+
 
 
 
